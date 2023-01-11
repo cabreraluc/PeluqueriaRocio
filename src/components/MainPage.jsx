@@ -22,7 +22,7 @@ import swal from 'sweetalert';
 import { useEffect } from "react"
 import useObserver from "./useObsserver"
 import CV from "./CV Cabrera Lucas.pdf"
-import logo from "./salmoslittle1.png"
+import logo from "./logoRocio.png"
 import corte1 from "./corte1.jpg"
 import corte2 from "./corte2.jpg"
 import corte3 from "./corte3.jpg"
@@ -69,17 +69,7 @@ export default function MainPage(){
             </div>        */}
           <div className={styles.textoDescripcion}>
 
-<h6>Nos dedicamos a mejorar la imagen de nuestros clientes.
-
-El objetivo es brindar el mejor servicio y marcar tendencia.
-
-Por eso construimos un espacio en el mundo para que disfrutes y te sientas cómodo.
-
-Queremos que SALMOS 34 sea tu lugar donde, más allá de cambiar tu look,
-
-puedas relajarte y encontrarte con amigos.
-
-- Te esperamos -
+<h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad rerum unde recusandae! Porro magni, id ipsa iure in error, ducimus eius itaque temporibus corrupti maiores sint repellendus similique laboriosam libero.
 </h6>
 
 </div>
@@ -92,28 +82,48 @@ puedas relajarte y encontrarte con amigos.
           
            
                 <h2 className={styles.second_section_title}>Servicios</h2>
-                <img src={bigimg} className={styles.bigimg}/>
+        
                 <br/>
                 <br/>
                 <div className={styles.second_section_contain}>
             <h6>
-              Corte con navaja: $1000
+              Corte: $800
             </h6>
             <br />
             <h6>
-              Corte sin navaja: $800
+              Alisados
             </h6>
             <br />
             <h6>
-              Corte con navaja + barba: $1200
+              Tratamientos capilares
             </h6>
             <br />
             <h6>
-              Claritos hombre desde: $3000
+              Peinados
             </h6>
             <br />
             <h6>
-              Corte + Claritos: $3800
+              Depilacion sistema español
+            </h6>
+            <br />
+            <h6>
+              Lifting
+            </h6>
+            <br />
+            <h6>
+              Tinte
+            </h6>
+            <br />
+            <h6>
+              Botox de pestañas
+            </h6>
+            <br />
+            <h6>
+              Perfiles de cejas
+            </h6>
+            <br />
+            <h6>
+              Todo tipo de mechas y tecnicas
             </h6>
             <br />
             <br /><br />
@@ -145,34 +155,12 @@ puedas relajarte y encontrarte con amigos.
           </div>
 
           <div className={styles.thirt_section} id="seccion-3">
-            <div className={styles.thirt_section_img_content}>
-
-            
-            </div>
-            
+           
           </div>
 
           <div className={styles.fourth_section} id="seccion-4">
 
             <div className={styles.form_container}>
-                <h2>¿Donde estamos?</h2>
-                <body>
-                  Alvar Núñez 178 - entre Herminio Constanzo y Av. ing. Jorge Douclout
-                </body>
-                <div>
-               <img style={{"width":"100%"}} src={ubicacionimg} alt="ubicacion" onClick={()=>window.location="https://www.google.com.ar/maps/place/Alvar+N%C3%BA%C3%B1ez+178,+B1842+Monte+Grande,+Provincia+de+Buenos+Aires/@-34.7908647,-58.4900274,17z/data=!4m5!3m4!1s0x95bcd1bed790b253:0x877adcdb57da327d!8m2!3d-34.7908383!4d-58.4908964"}/>
-                </div>
-                <div className={styles.contact_items}>
-
-                    <a href="https://www.facebook.com/profile.php?id=100067874091547"
-                      style={{color:"white" }}
-                      target="_blanck"
-                    >
-                    <h1><AiFillFacebook/></h1>
-                    </a>
-                 
-                   
-                </div>
                 <h5 style={{margin:"1rem"}}>Correo electrónico: salmos34barbershop@gmail.com</h5>
                     <h5 style={{margin:"1rem"}}>Teléfono: 1128440273 - 1153174664</h5>
             </div>

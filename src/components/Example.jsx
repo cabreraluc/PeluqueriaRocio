@@ -7,31 +7,38 @@ import {
   CarouselCaption,
 } from 'reactstrap';
 
-import corte1 from "./corte1.jpg"
-import corte2 from "./corte2.jpg"
-import corte3 from "./corte3.jpg"
+import img1 from "./imgRocio1.png"
+import img2 from "./imgRocio2.png"
+import img3 from "./imgRocio3.png"
+import img4 from "./imgRocio4.png"
 
 import "bootstrap/dist/css/bootstrap.min.css"
 
 const items = [
   {
-    src: corte1,
+    src: img1,
     altText: '',
     caption: '',
     key: 1,
   },
   {
-    src: corte2,
+    src: img2,
     altText: ' ',
     caption: '',
     key: 2,
   },
   {
-    src: corte3,
+    src: img3,
     altText: ' ',
     caption: ' ',
     key: 3,
   },
+  {
+    src: img4,
+    altText: ' ',
+    caption: ' ',
+    key: 3,
+  }
 ];
 
 function Example(args) {
