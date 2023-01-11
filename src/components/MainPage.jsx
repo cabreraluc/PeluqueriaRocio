@@ -138,18 +138,9 @@ export default function MainPage(){
                          <h3>Horarios de atención</h3>
                          <br /><br />
             <h6>
-              Martes a viernes de 11:00 a 21:00hs
+              Martes a sabados de 8:00 a 19:00hs
             </h6>
-            <br />
-            <h6>
-              Sábados de 11:00 a 17:00hs
-            </h6>
-            <br />
-            <h6>
-              Domingos de 12:00 a 21:00hs
-            </h6>
-            <br />       
-
+            <br />      
             </div>
             
           </div>
@@ -161,7 +152,7 @@ export default function MainPage(){
           <div className={styles.fourth_section} id="seccion-4">
 
             <div className={styles.form_container}>
-                <h5 style={{margin:"1rem"}}>Correo electrónico: salmos34barbershop@gmail.com</h5>
+                <h5 style={{margin:"1rem"}}>Correo electrónico: Roromendoza23@gmail.com</h5>
                     <h5 style={{margin:"1rem"}}>Teléfono: 1128440273 - 1153174664</h5>
             </div>
 
